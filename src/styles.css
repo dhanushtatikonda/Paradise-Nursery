@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: green;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
